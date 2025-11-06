@@ -117,10 +117,10 @@ nav img {
 .ContentHome {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  /* width: 100%; */
   justify-content: center;
   justify-items: center;
-  padding: 5vw;
+  max-width: 1600px;
+  margin: 0 auto;
   gap: 30px;
 }
 
